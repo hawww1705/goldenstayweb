@@ -43,19 +43,10 @@ export default function CatalogHomePage() {
   return (
     <div className="min-h-screen flex flex-col bg-[#fcf9f5] text-slate-900 antialiased overflow-x-hidden">
       
-      {/* Top Banner Offer Badge - Modern Luxury Floating Gradient Bar */}
-      <div className="bg-gradient-to-r from-rose-600 via-pink-600 to-rose-500 text-white font-extrabold px-4 py-2.5 text-[10px] sm:text-xs flex flex-col sm:flex-row items-center justify-between gap-2 max-w-7xl mx-auto w-full shadow-md text-center sm:text-left">
-        <span className="flex items-center justify-center gap-2 tracking-wide">
-          <Sparkles className="w-4 h-4 text-rose-200 animate-pulse shrink-0" />
-          <span>PAKET 1: CATALOG PROFIL DIRECT WHATSAPP • PORT 3001</span>
-        </span>
-        <Link 
-          href="http://localhost:3000" 
-          className="bg-white/95 text-rose-800 px-3.5 py-1 rounded-xl text-[10px] sm:text-[11px] font-extrabold hover:bg-white hover:scale-105 transition-all shadow-sm whitespace-nowrap flex items-center gap-1"
-        >
-          <span>Coba Paket 2 (Booking Engine)</span>
-          <ArrowUpRight className="w-3.5 h-3.5 text-rose-600" />
-        </Link>
+      {/* Top Header Official Announcement Bar */}
+      <div className="bg-gradient-to-r from-rose-600 via-pink-600 to-rose-500 text-white font-extrabold px-4 py-2 text-[10px] sm:text-xs flex items-center justify-center gap-2 max-w-7xl mx-auto w-full shadow-md text-center">
+        <Sparkles className="w-4 h-4 text-rose-200 animate-pulse shrink-0" />
+        <span>GOLDEN STAY 1888 SEMARANG • OFFICIAL PROFIL & KATALOG KAMAR DIRECT WHATSAPP</span>
       </div>
 
       {/* Main Header - Modern Glassmorphism Bar */}
